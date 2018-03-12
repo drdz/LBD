@@ -1,0 +1,5 @@
+UPDATE Empleados SET Nombre='Daniel', Apellido='de la Rosa Rodríguez' FROM Empleados WHERE [ID empleado]='A748E7D5-73EA-4007-B4B8-BE2D984F3CC2'
+UPDATE Empleados SET Nombre='Juan', Apellido='López Hernández' FROM Empleados WHERE [ID empleado]='AE425969-9792-4343-B56A-C728D3D3590F'
+UPDATE Empleados SET Nombre='Frodo', Apellido='Bolsón' FROM Empleados WHERE [ID empleado]='0B81F70F-6DD4-4B45-984F-D713139AE36F'
+UPDATE Empleados SET Nombre='Aragorn', Apellido='Hijo de Arathorn' FROM Empleados WHERE [ID empleado]='4C61C910-6B66-4FA2-BD56-D78440F063F4'
+UPDATE Empleados SET Nombre='Paarthurnax', Apellido='Barba Gris' FROM Empleados WHERE [ID empleado]='43396E90-A5DE-4216-AF80-FB6EA863057D'
