@@ -1,0 +1,5 @@
+UPDATE Maestros SET Nombre='Daniel', Apellidos='de la Rosa Rodríguez' FROM Maestros WHERE [ID maestro]='C83EA845-17FF-419D-BF2B-1505E3BD78A6'
+UPDATE Maestros SET Nombre='Juan', Apellidos='López Hernández' FROM Maestros WHERE [ID maestro]='233B966D-F636-4B77-8922-567342108539'
+UPDATE Maestros SET Nombre='Frodo', Apellidos='Bolsón' FROM Maestros WHERE [ID maestro]='9B814CEA-75EC-436F-B471-64EFFD242AF3'
+UPDATE Maestros SET Nombre='Aragorn', Apellidos='Hijo de Arathorn' FROM Maestros WHERE [ID maestro]='FAC6F138-9300-4E62-9029-B5C1A85564EF'
+UPDATE Maestros SET Nombre='Paarthurnax', Apellidos='Barba Gris' FROM Maestros WHERE [ID maestro]='5DE1A733-FA3A-4AF4-8F4A-E9DD1A35F94E'
