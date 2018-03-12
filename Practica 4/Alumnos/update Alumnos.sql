@@ -1,0 +1,5 @@
+UPDATE Alumnos SET Nombre='Daniel', Apellidos='de la Rosa Rodríguez' FROM Alumnos WHERE Matricula='D116BC8F-4476-4AF7-81C0-AB5B1B4B3671'
+UPDATE Alumnos SET Nombre='Juan', Apellidos='López Hernández' FROM Alumnos WHERE Matricula='3FC3E5A6-4BC5-4648-A8FB-25647697CD79'
+UPDATE Alumnos SET Nombre='Frodo', Apellidos='Bolsón' FROM Alumnos WHERE Matricula='22D7DAC4-13B2-4B63-BB26-449B2B9C8E86'
+UPDATE Alumnos SET Nombre='Aragorn', Apellidos='Hijo de Arathorn' FROM Alumnos WHERE Matricula='D9668EC8-B1EB-412C-AF5A-558F565B4DA1'
+UPDATE Alumnos SET Nombre='Paarthurnax', Apellidos='Barba Gris' FROM Alumnos WHERE Matricula='1611DAB8-9B0A-4C74-9A1B-7DC391BBECCE'
