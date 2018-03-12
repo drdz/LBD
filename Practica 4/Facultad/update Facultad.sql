@@ -1,0 +1,6 @@
+UPDATE Facultad SET Nombre='FCB', Carreras='8' FROM Facultad WHERE ID facultad='D116BC8F-4476-4AF7-81C0-AB5B1B4B3671'
+UPDATE Facultad SET Nombre='FCFM', Carreras='4' FROM Facultad WHERE ID facultad='3FC3E5A6-4BC5-4648-A8FB-25647697CD79'
+UPDATE Facultad SET Nombre='FIME', Carreras='8' FROM Facultad WHERE ID facultad='22D7DAC4-13B2-4B63-BB26-449B2B9C8E86'
+UPDATE Facultad SET Nombre='FIC', Carreras='7' FROM Facultad WHERE ID facultad='D9668EC8-B1EB-412C-AF5A-558F565B4DA1'
+UPDATE Facultad SET Nombre='FARQ', Carreras='3' FROM Facultad WHERE ID facultad='1611DAB8-9B0A-4C74-9A1B-7DC391BBECCE'
+
