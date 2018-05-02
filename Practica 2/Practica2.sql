@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [Lab]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Database [Lab]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 CREATE DATABASE [Lab]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -97,7 +97,7 @@ ALTER DATABASE SCOPED CONFIGURATION FOR SECONDARY SET QUERY_OPTIMIZER_HOTFIXES =
 GO
 USE [Lab]
 GO
-/****** Object:  Table [dbo].[Alumno]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[Alumno]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -112,14 +112,14 @@ CREATE TABLE [dbo].[Alumno](
 	[Carrera] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[Alumno_V]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  View [dbo].[Alumno_V]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE VIEW [dbo].[Alumno_V] as select Nombre from Alumno
 GO
-/****** Object:  Table [dbo].[a_Area]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[a_Area]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -128,20 +128,7 @@ CREATE TABLE [dbo].[a_Area](
 	[Area] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Area]    Script Date: 02/05/2018 12:44:50 a. m. ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Area](
-	[ID empleado] [uniqueidentifier] NOT NULL,
-	[Nombre] [nvarchar](50) NOT NULL,
-	[Apellido paterno] [nvarchar](50) NOT NULL,
-	[Apellido materno] [nvarchar](50) NOT NULL,
-	[Area] [nvarchar](50) NOT NULL
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Carrera]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[Carrera]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -154,7 +141,7 @@ CREATE TABLE [dbo].[Carrera](
 	[Campus] [nvarchar](50) NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Empleado]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[Empleado]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -168,7 +155,7 @@ CREATE TABLE [dbo].[Empleado](
 	[Area] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Facultad]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[Facultad]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -180,7 +167,7 @@ CREATE TABLE [dbo].[Facultad](
 	[Campus] [nvarchar](50) NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Maestro]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  Table [dbo].[Maestro]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -195,7 +182,7 @@ CREATE TABLE [dbo].[Maestro](
 	[Facultad] [nvarchar](50) NOT NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  StoredProcedure [dbo].[consulta_1]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  StoredProcedure [dbo].[consulta_1]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -207,7 +194,7 @@ begin
 	print 'Hecho';
 end
 GO
-/****** Object:  StoredProcedure [dbo].[consulta_2]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  StoredProcedure [dbo].[consulta_2]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -219,7 +206,7 @@ begin
 	print 'Hecho';
 end
 GO
-/****** Object:  StoredProcedure [dbo].[consulta_3]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  StoredProcedure [dbo].[consulta_3]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -231,7 +218,7 @@ begin
 	print 'Hecho';
 end
 GO
-/****** Object:  StoredProcedure [dbo].[consulta_4]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  StoredProcedure [dbo].[consulta_4]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -243,7 +230,7 @@ begin
 	print 'Hecho';
 end
 GO
-/****** Object:  StoredProcedure [dbo].[consulta_5]    Script Date: 02/05/2018 12:44:50 a. m. ******/
+/****** Object:  StoredProcedure [dbo].[consulta_5]    Script Date: 02/05/2018 12:52:58 a. m. ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
