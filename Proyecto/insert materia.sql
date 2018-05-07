@@ -1,0 +1,5 @@
+insert into Materia values (NEWID(), 'Cálculo diferencial y geometría analítica', 'CDGA', 'LSTI', 'FCFM')
+insert into Materia values (NEWID(), 'Competencia comunicativa', 'COCO', 'CIVIL', 'FIC')
+insert into Materia values (NEWID(), 'Sistemas operativos', 'SISTOP', 'LTI', 'FACPYA')
+insert into Materia values (NEWID(), 'Matemáticas I', 'MAT1', 'IM', 'FIME')
+insert into Materia values (NEWID(), 'Laboratorio base de datos', 'LBD', 'LSTI', 'FCFM')

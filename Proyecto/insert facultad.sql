@@ -1,0 +1,5 @@
+insert into Facultad values (NEWID(), 'Facultad de Ciencias Físico Matemáticas','FCFM', '6', 'CD UNIVERSITARIA')
+insert into Facultad values (NEWID(), 'Facultad de Ingeniería Civil','FIC', '1', 'CD UNIVERSITARIA')
+insert into Facultad values (NEWID(), 'Facultad de Ingeniería Mecánica y Eléctrica','FIME', '10', 'CD UNIVERSITARIA')
+insert into Facultad values (NEWID(), 'Facultad de Contaduría Pública y Administración','FACPYA', '4', 'CD UNIVERSITARIA')
+insert into Facultad values (NEWID(), 'Facultad de Filosofía y Letras', 'FFYL','6', 'CD UNIVERSITARIA')

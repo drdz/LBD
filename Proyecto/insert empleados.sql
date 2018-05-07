@@ -1,0 +1,5 @@
+insert into Empleado values (NEWID(), 'María Mireya', 'Acevedo', 'Manríquez','35','FCFM','Intendencia', 'Santa Isabel #25','San Nicolas de los Garza','Nuevo León')
+insert into Empleado values (NEWID(), 'Mario Andrés', 'Báez', 'Chávez','43','FCQ','Administración','Alameda #630','Monterrey','Nuevo León')
+insert into Empleado values (NEWID(), 'Prudenciano', 'Caballero', 'Valle','28', 'FCB', 'Recursos Humanos','Portugal #12','Apodaca','Nuevo León')
+insert into Empleado values (NEWID(), 'Guadalupe Voctoriana', 'De León','Martínez','36','FIC', 'Director','Vicuña #1234','San Pedro Garza García','Nuevo León')
+insert into Empleado values (NEWID(), 'Carlos Luis', 'Erazo', 'Bernal','44','FIME', 'Soporte técnico', 'Puente Alto #666','Guadalupe','Nuevo León')

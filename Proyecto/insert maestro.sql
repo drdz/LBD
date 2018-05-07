@@ -1,0 +1,5 @@
+insert into Maestro values (NEWID(), 'María Mireya', 'Acevedo', 'Manríquez','35','Matemáticas','LSTI', 'FCFM', 'Santa Isabel #25','San Nicolas de los Garza','Nuevo León')
+insert into Maestro values (NEWID(), 'Mario Andrés', 'Báez', 'Chávez','43','Física', 'QFB', 'FCQ', 'Alameda #630','Monterrey','Nuevo León')
+insert into Maestro values (NEWID(), 'Prudenciano', 'Caballero', 'Valle','28','Cálculo diferencial','QBP', 'FCB', 'Portugal #12','Apodaca','Nuevo León')
+insert into Maestro values (NEWID(), 'Guadalupe Voctoriana', 'De León','Martínez','36','Cálculo integral','CIVIL', 'FIC', 'Vicuña #1234','San Pedro Garza García','Nuevo León')
+insert into Maestro values (NEWID(), 'Carlos Luis', 'Erazo', 'Bernal','44','Base de datos','IM', 'FIME', 'Puente Alto #666','Guadalupe','Nuevo León')

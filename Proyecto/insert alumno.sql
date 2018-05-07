@@ -1,0 +1,5 @@
+insert into Alumno values (NEWID(), 'María Mireya', 'Acevedo', 'Manríquez', '18','Santa Isabel #25','San Nicolas de los Garza','Nuevo León', 'FCFM', 'LSTI')
+insert into Alumno values (NEWID(), 'Mario Andrés', 'Báez','Chávez', '20','Alameda #630','Monterrey','Nuevo León', 'FCQ', 'QFB')
+insert into Alumno values (NEWID(), 'Prudenciano', 'Caballero', 'Valle', '22','Portugal #12','Apodaca','Nuevo León' ,'FCB', 'QBP')
+insert into Alumno values (NEWID(), 'Guadalupe Voctoriana', 'De León', 'Martínez', '19','Vicuña #1234','San Pedro Garza García','Nuevo León', 'FIC', 'CIVIL')
+insert into Alumno values (NEWID(), 'Carlos Luis', 'Erazo', 'Bernal', '21','Puente Alto #666','Guadalupe','Nuevo León', 'FCF', 'IMRN')

@@ -1,0 +1,5 @@
+insert into Carrera values (NEWID(), 'Licenciatura en Seguridad en Tecnologías de Información','LSTI', '67', 'CD UNIVERSITARIA', 'FCFM')
+insert into Carrera values (NEWID(), 'Licenciatura en Multimedia y Animación Digital ','LMAD', '70', 'CD UNIVERSITARIA', 'FCFM')
+insert into Carrera values (NEWID(), 'Licenciatura en Ciencias Computacionales', 'LCC',  '59', 'CD UNIVERSITARIA', 'FCFM')
+insert into Carrera values (NEWID(), 'Licenciatura en Matemáticas', 'LM',  '69', 'CD UNIVERSITARIA', 'FCFM')
+insert into Carrera values (NEWID(), 'Llcenciatura en Física', 'LF',  '79', 'CD UNIVERSITARIA', 'FCFM')

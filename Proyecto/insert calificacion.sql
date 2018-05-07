@@ -1,0 +1,5 @@
+insert into Calificacion values (NEWID(), NEWID(), '69')
+insert into Calificacion values (NEWID(), NEWID(), '78')
+insert into Calificacion values (NEWID(), NEWID(), '35')
+insert into Calificacion values (NEWID(), NEWID(), '64')
+insert into Calificacion values (NEWID(), NEWID(), '96')
